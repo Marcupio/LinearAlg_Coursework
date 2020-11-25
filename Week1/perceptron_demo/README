@@ -1,0 +1,32 @@
+Perceptron demo:
+
+  perceptron.m		Perceptron learning demo: two-class discrimination.
+  percep3d.m		Perceptron demo using 3D plot: shows decision plane
+
+  PlotPats.m    	Helper function: plots training patterns.
+  PlotPats3D.m		3d version
+  PlotBoundary.m 	Helper function: plots decision boundary
+  PlotBoundary3D.m	3d version
+...............................................................................
+
+LMS demos:
+
+  lms.m			LMS learning demo: fitting a line.
+  lms3d.m		LMS demo using 3D plot: shows decision plane
+  parabolas.m		Graphs parabolic error curves in weight space for LMS.
+  bowl.m		Shows weight gradient descent along error surface in
+			  weight space, plotted in 3D.
+  xordemo.m		XOR problem, with stochastic learning
+
+  LmsPat.dat		Data file: input patterns for line fitting task.
+  LmsAns.dat		Data file: desired output for each input.
+  PlotLmsPats.m		Helper function: plot training patterns.
+  PlotLmsFn.m		Helper function: plot the line defined by the
+			  current weight values.
+  tss.m			Helper function: total sum-squared error.
+
+................................................................
+
+Polynomial classifier demo:
+
+  poly.m		Polynomial classifier trained by perceptron algorithm.

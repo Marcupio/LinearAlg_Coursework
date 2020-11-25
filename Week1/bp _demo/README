@@ -1,0 +1,25 @@
+Backpropagation learning:
+
+  bp_innerloop		The backpropagation learning algorithm, used
+			in each of the demos below.
+
+XOR Demo:
+  bpxor.m		Learning the XOR function.
+  XorPats.m		Input patterns for XOR.
+  XorAns.m		Desired output patterns.
+  PlotBpPats.m		Plot of input patterns
+  PlotBpBoundary.m	Plot decision boundary during learning.
+
+Encoder Demo:
+  encoder.m		N-2-N encoder.
+  PlotEncoder.m		Plot of encoder decision boudaries.
+
+Function Approxmation Demo:
+  approx.m		1-N-1 function approximator network.
+  approxhelper.m        Inner loop of training algorithm.
+  approxfn.m		Function to be approximated.
+  PlotApprox.m          Plot hidden unit and approximator results.
+
+Gradient Descent/Momentum Demo:
+  quaderr.m		Generates plots as in Hertz Krogh & Palmer
+			figures 5.10 and 6.3
